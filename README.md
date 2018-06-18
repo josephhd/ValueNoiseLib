@@ -1,5 +1,5 @@
-##ValueNoiseLib
-######Created by Joseph Dunbar
+## ValueNoiseLib
+###### Created by Joseph Dunbar
 ------
 This is a library of functions that produce value noise in up to 4 dimensions, with their respective gradients (see "C Code/valuenoise.h" for function definitions).
 
@@ -11,7 +11,7 @@ Included in "C Code" is a makefile which will build the project. Using the comma
 
 ---
 **TODO**: 
-  *Unity3D Jobs implementation
-  *HLSL port
+  * Unity3D Jobs implementation
+  * HLSL port
 ---
 ![alt text](https://github.com/josephhd/ValueNoiseLib/tree/master/C%20Code/valuenoise.pgm "Value Noise")
