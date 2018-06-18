@@ -15,4 +15,6 @@ Included in "C Code" is a makefile which will build the project. Using the comma
   * Unity3D Jobs implementation
   * HLSL port
 ---
-![alt text](https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise.jpg "Value Noise")
+<p align="center">
+    <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise.jpg">
+</p>
