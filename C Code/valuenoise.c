@@ -187,7 +187,6 @@ struct double3 ValueNoise2D (double x, double y, double frequency, int octaves, 
     return result;
 }
 
-//NOTE: The gradient of this function may or may not be correct and need testing
 struct double4 ValueNoise3D (double x, double y, double z, double frequency, int octaves, double lacunarity, double persistence) {
     if (x < 0) x *= -1;
     if (y < 0) y *= -1;
@@ -275,7 +274,6 @@ struct double4 ValueNoise3D (double x, double y, double z, double frequency, int
     return result;
 }
 
-//NOTE: The graident of this function may or may not be correct and need testing
 struct double5 ValueNoise4D (double x, double y, double z, double w, double frequency, int octaves, double lacunarity, double persistence) {
     if (x < 0) x *= -1;
     if (y < 0) y *= -1;
