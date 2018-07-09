@@ -7,6 +7,10 @@ This is a library of functions that produce value noise in up to 4 dimensions, w
 Included in "C Code" is a makefile which will build the project. Using the command "make run" will build and run the project files, which will output a sample image called "valuenoise.pgm".
 
 
+
+*Note: the gradient returns should be correct, but they have not been experimentally tested*
+
+
 **TODO**: 
   * Unity3D Jobs implementation
   * HLSL port
@@ -14,3 +18,20 @@ Included in "C Code" is a makefile which will build the project. Using the comma
 <p align="center">
     <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise.jpg">
 </p>
+
+<p align="center">
+    <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise_fbmdistortonce.jpg">
+</p>
+
+<p align="center">
+    <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise_fbmdistorttwice.jpg">
+</p>
+
+<p align="center">
+    <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise_fmbdistortthrice.jpg">
+</p>
+
+<p align="center">
+    <img src="https://github.com/josephhd/ValueNoiseLib/blob/master/valuenoise_gradientdistort.jpg">
+</p>
+
